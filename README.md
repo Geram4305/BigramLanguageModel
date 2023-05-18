@@ -8,6 +8,8 @@ The model utilizes the names.txt dataset as input to generate names. To accompli
 
 Frequency Count and Normalization: 
 The model counts and normalizes the frequencies of all the bigrams in the dataset.
+
+
 Optimization with Negative Log-Likelihood: The model optimizes the counts matrix using negative log-likelihood as a lead to minimize loss in a gradient-based framework. For this purpose, a simple neural network with a single linear layer is employed.
 This GitHub repository provides code and resources for implementing the Bigram character-level language model. You can explore both training approaches, generate new names, and evaluate the model's performance using negative log-likelihood loss.
 
