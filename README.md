@@ -15,7 +15,6 @@ In this approach, the frequency of all the bigrams in the dataset is counted and
 
 In this approach, a neural network is used to optimize the count matrix by minimizing the negative log-likelihood loss. The network considers the single previous character and feeds it through a single linear layer to calculate the logits and sampling is done to generate new names.
 
-At the end, both these approaches gave similar results.
 
 # Evaluating the Model
 To evaluate the quality of the trained model, negative log likelihood loss is used. The lower the loss value, the better the model's performance. 
