@@ -1,5 +1,5 @@
 # Bigram Character-Level Language Model
-This repository contains code for training a Bigram Character-Level Language Model. The model is trained on a dataset of the most common 32K names taken from ssa.gov for the year 2018. The purpose of this project is to demonstrate how to train the model, sample from it, and evaluate its quality using negative log likelihood loss.
+This repository contains code for training a Bigram Character-Level Language Model. A Bigram is essentially a sequence of two characters. In the case of the Bigram character-level language model, it predicts the subsequent character based on the previous character. The model is trained on a dataset of the most common 32K names taken from ssa.gov for the year 2018. The purpose of this project is to demonstrate how to train the model, sample from it, and evaluate its quality using negative log likelihood loss.
 
 # Dataset
 The names.txt dataset used in this project consists of the 32K most common names from ssa.gov for the year 2018. It serves as an example for training the language model.
